@@ -8,7 +8,7 @@ This script was created to download videos from website uaserials.pro in differe
 `cd scripts; npm i`
 
 ## Usage
-./uaserials.pro https://uaserials.pro/2042-velykyi-kush.html 
+./uaserials.sh https://uaserials.pro/2042-velykyi-kush.html 
 
 ### Params
 `--season=N`

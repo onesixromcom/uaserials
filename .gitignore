@@ -1,2 +1,2 @@
-var
-scripts/node_modules
+./vars
+./scripts/node_modules
