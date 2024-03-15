@@ -229,7 +229,7 @@ fi
 echo "PLAYER JSON: $PLAYER_ENCODED"
 #echo "$PLAYER_ENCODED" > ./player.json
 
-PLAYER_IFRAMES=$(node ./scipts/crypto.js $PLAYER_ENCODED $SEASON $SOUND)
+PLAYER_IFRAMES=$(node ./scripts/crypto.js $PLAYER_ENCODED $SEASON $SOUND)
 
 if [ -z "$PLAYER_IFRAMES" ]; then
 	echo "No iframes for player found. exit"
